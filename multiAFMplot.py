@@ -20,3 +20,8 @@ plt.plot(np.mean(mean_data,axis=0),color='blue')
 plt.title('Surface Compare')
 plt.show()
 plt.savefig('surface_compare.png')
+
+plt.imshow(np.mean(total_data,axis=0))
+plt.title('Overall Average Surface')
+plt.show()
+plt.savefig('mean_surface.png')
